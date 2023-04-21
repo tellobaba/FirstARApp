@@ -13,6 +13,7 @@
 		D0C18C6429F2875600ED3BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C18C6229F2875600ED3BDC /* Main.storyboard */; };
 		D0C18C6629F2875900ED3BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C18C6529F2875900ED3BDC /* Assets.xcassets */; };
 		D0C18C6929F2875900ED3BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C18C6729F2875900ED3BDC /* LaunchScreen.storyboard */; };
+		D0C18C7429F2CE9100ED3BDC /* argun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D0C18C7329F2CE9100ED3BDC /* argun.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D0C18C6329F2875600ED3BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0C18C6529F2875900ED3BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0C18C6829F2875900ED3BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0C18C7329F2CE9100ED3BDC /* argun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = argun.usdz; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				D0C18C5C29F2875600ED3BDC /* AppDelegate.swift */,
 				D0C18C5E29F2875600ED3BDC /* ViewController.swift */,
+				D0C18C7329F2CE9100ED3BDC /* argun.usdz */,
 				D0C18C6029F2875600ED3BDC /* Experience.rcproject */,
 				D0C18C6229F2875600ED3BDC /* Main.storyboard */,
 				D0C18C6529F2875900ED3BDC /* Assets.xcassets */,
@@ -126,6 +129,7 @@
 				D0C18C6929F2875900ED3BDC /* LaunchScreen.storyboard in Resources */,
 				D0C18C6629F2875900ED3BDC /* Assets.xcassets in Resources */,
 				D0C18C6429F2875600ED3BDC /* Main.storyboard in Resources */,
+				D0C18C7429F2CE9100ED3BDC /* argun.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 655K34WV58;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -295,6 +300,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 655K34WV58;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -325,6 +332,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
